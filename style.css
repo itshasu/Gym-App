@@ -1,0 +1,29 @@
+/* CSS Reset */
+
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/logo1.jpeg');
+}
+
+.left{
+    display: inline-block;
+    border: 5px solid green;
+    position: absolute;
+    left: 34px;
+    top: 60px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    border: 5px solid blue;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 80px;
+    display: inline-block;
+    border: 5px solid brown;
+}
